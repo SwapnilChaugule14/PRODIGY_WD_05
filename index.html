@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- 🔼 Form goes first -->
+    <div class="controls-box">
+        <form id="search-form">
+            <input type="text" id="location-input" placeholder="Enter city (e.g. Mumbai)..." />
+            <button type="submit">Search</button>
+            <button type="button" id="geo-btn">Use My Location</button>
+        </form>
+    </div>
+
+    <!-- 🔽 Weather card now appears below -->
+    <div class="weather-card" id="weather-card">
+        <!-- Weather info will load here dynamically -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
